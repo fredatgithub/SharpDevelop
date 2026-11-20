@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ProjectGuid>{857CA1A3-FC88-4BE0-AB6A-D1EE772AB288}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -7,7 +7,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>ICSharpCode.Core.WinForms</RootNamespace>
     <AssemblyName>ICSharpCode.Core.WinForms</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <OutputPath>..\..\..\bin\</OutputPath>
     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
@@ -67,7 +67,9 @@
     <Compile Include="Menu\MenuCheckBox.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Menu\MenuCommand.cs" />
+    <Compile Include="Menu\MenuCommand.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Menu\MenuSeparator.cs" />
     <Compile Include="Menu\MenuService.cs" />
     <Compile Include="MessageService\CustomDialog.cs">
